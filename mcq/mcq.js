@@ -45,7 +45,7 @@ ready.addEventListener("click", () => {
     const tm=setInterval(()=>{
         count++; 
         tim.innerHTML=count;
-        if(count===10){
+        if(count===300){
 
           result();
             clearInterval(tm);
